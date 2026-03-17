@@ -1,1 +1,57 @@
+# 学习日志 - 2026.03.16 🚀
+## 📚 学习内容
+1、立即数的实现
+2、ADC/DMA
+3、c语言指针（黑皮书）
+
+---
+
+## 📝 LeetCode 刷题记录
+
+| 题号 | 题目 | 思路 |
+|:----:|:----:|:-----|
+| 14 | 最长公共前缀 | 原代码基本正确但需处理空输入边界，而异或法因奇偶性导致的歧义不适合用于最长公共前缀问题，应坚持逐列比较的常规解法。 |
+
+
+
+
+
+---
+
+## 💡 重点/难点记录
+
+### 重点
+-ADC+DMA实现多通道
+-ARM立即数的实现
+-c语言的传值方式
+
+  
+
+### 难点
+-ADC/DMA
+
+
+
+
+
+---
+
+## ⚠️ 遇到的问题
+-1、c语言到底是如何传参的？
+-2、UDP/TCP的区别
+
+## ✅ 解决方案
+-黑皮书是这样说的：c语言是以传值的方式进行传参的，所以如果在不使用指针的情况下，仅是传一个副本也就是copy（）操作
+-我是这样理解UDP和TCP的，
+两者都是传输协议，UDP是面向连接的协议，也就是需要三次握手的，可靠性高，开销小，
+而TCP是无连接的，也就是可以直接传输数据，但是可靠性低，开销大
+
+
+---
+
+## 🔗 参考链接
+- [stm32（bilibili）](https://www.bilibili.com/video/BV1th411z7sn?spm_id_from=333.788.videopod.episodes&vd_source=7395aa6a2c0024d0e425d7f1cf153b4c&p=19)  
+- [计算机组成原理（bilibili）](https://www.bilibili.com/video/BV1Wv411x7zP/?spm_id_from=333.1387.favlist.content.click&vd_source=7395aa6a2c0024d0e425d7f1cf153b4c)  
+- [14.最长公共前缀（leetcode）](https://leetcode.cn/problems/longest-common-prefix/)  
+
 
